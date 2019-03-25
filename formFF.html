@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form-filing</title>
+    <link rel="stylesheet" href="MyCSS.css">
+    <script src="formScript.js">
+    
+    </script>
+</head>
+<body id="bodyF">
+
+        <div class="header-brand">
+                <header >
+                    <a href="" class=""><h2 style="text-align: center;">Progect form</h2></a>
+                    <nav>
+                        <ul>
+                            <li><a href="assignment2Final.html">Home</a></li>
+                            <li><a href="experience.html">work experience</a></li>
+                            
+                        </ul>
+                        <a href="projects.html" class="header-pro">projects</a>
+                    </nav> 
+                </header>
+
+    <div id="main" style="width: 85%">
+        <div id="mainH">          
+            <h2 id="h2">Projects</h2>
+            <form action="projects.html" method="post" name="formName" id="formId" class="formClass">
+                <label>project name:</label>     
+                <input type="text" name="pName" id="projectName" placeholder="PROJECT" />
+                <label>projectNum:</label>
+                <input type="text" name="projectNum" id="projectNum" placeholder=" Num" />    
+                <label>project discription:</label>
+                <input type="text" name="discription" id="discription" placeholder="discription" />
+                <label>Date </label>
+                <input type="date" name="date" id="date" placeholder="day of complition" />
+                <button type="button" id="bF">send</button>
+            </form>
+        </div>  
+    </div>
+    <a href="projects.html"><h2>click here to see project</h2></a>
+    <fieldset>
+            <legend>projects list</legend>
+            <div id="outPut"></div>
+        </fieldset>
+</body>
+</html>
